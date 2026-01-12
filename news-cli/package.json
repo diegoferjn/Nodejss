@@ -5,10 +5,21 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js list",
+    "filter": "node index.js filter Ciencia",
+    "search": "node index.js search IA"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "keywords": [
+    "cli",
+    "nodejs",
+    "educativo",
+    "noticias",
+    "consola"
+  ],
+  "author": "Nombre del alumno",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
