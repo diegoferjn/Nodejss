@@ -1,0 +1,14 @@
+{
+  "name": "news-cli",
+  "version": "1.0.0",
+  "description": "CLI educativo para leer noticias",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
