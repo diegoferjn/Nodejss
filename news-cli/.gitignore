@@ -1,0 +1,34 @@
+
+---
+
+### 📄 .gitignore
+
+```gitignore
+# Dependencias
+node_modules/
+
+# Directorios generados
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Archivos temporales
+.tmp/
+.temp/
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
