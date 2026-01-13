@@ -1,0 +1,19 @@
+{
+  "name": "news-cli",
+  "version": "1.0.0",
+  "description": "CLI educativo para leer noticias",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "cli",
+    "nodejs",
+    "educativo",
+    "noticias",
+    "consola"
+  ],
+  "author": "Alumno",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
