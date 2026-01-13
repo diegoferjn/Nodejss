@@ -1,17 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Avances en IA",
-    "category": "Tecnología"
+    "title": "Descubren un nuevo exoplaneta potencialmente habitable",
+    "category": "Ciencia",
+    "content": "Un equipo internacional ha identificado un exoplaneta en la zona habitable de su estrella."
   },
   {
     "id": 2,
-    "title": "Nuevo descubrimiento científico",
-    "category": "Ciencia"
+    "title": "La IA mejora el diagnóstico temprano en hospitales",
+    "category": "IA",
+    "content": "Nuevos modelos de inteligencia artificial ayudan a detectar patrones en imágenes médicas."
   },
   {
     "id": 3,
-    "title": "Economía global en crecimiento",
-    "category": "Economía"
+    "title": "Avances en baterías de estado sólido",
+    "category": "Tecnología",
+    "content": "Las baterías de estado sólido prometen mayor densidad energética y más seguridad."
+  },
+  {
+    "id": 4,
+    "title": "Ciencia de datos aplicada a predicción meteorológica",
+    "category": "Ciencia",
+    "content": "La modelización y el análisis de datos mejoran la precisión de los pronósticos."
   }
 ]

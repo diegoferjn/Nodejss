@@ -1,8 +1,6 @@
 export function parseArgs(argv) {
-  const [, , command, ...args] = argv;
-
-  return {
-    command,
-    args
-  };
+  // argv = ["node", "index.js", "command", ...args]
+  const command = argv[2];
+  const args = argv.slice(3);
+  return { command, args };
 }

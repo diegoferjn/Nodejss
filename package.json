@@ -4,6 +4,21 @@
   "description": "CLI educativo para leer noticias",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js list",
+    "help": "node index.js help",
+    "categories": "node index.js categories",
+    "test": "echo \"Ejecutando pruebas...\" && node index.js list",
+    "build": "mkdir -p dist && cp -r src dist/ && cp index.js dist/",
+    "clean": "rm -rf dist && echo \"Directorio limpiado\"",
+    "rebuild": "npm run clean && npm run build",
+    "dev-verbose": "NODE_ENV=development node index.js list",
+    "prod": "NODE_ENV=production node index.js list",
+    "setup": "npm install && echo \"Proyecto configurado\"",
+    "demo": "npm run dev && npm run help && npm run categories",
+    "all": "npm run dev && npm run help && npm run categories"
+  },
   "keywords": [
     "cli",
     "nodejs",
@@ -11,9 +26,12 @@
     "noticias",
     "consola"
   ],
-  "author": "Alumno",
+  "author": "Tu nombre",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
   }
 }
